@@ -17,14 +17,14 @@ class EmptyResultWidget extends StatelessWidget {
           children: <Widget>[
             Icon(
               Icons.warning,
-              color: Colors.yellow[200],
+              color: Colors.deepOrangeAccent[200],
               size: 80.0,
             ),
             Container(
               padding: EdgeInsets.only(top: 16.0),
               child: Text(
                 "No results",
-                style: TextStyle(color: Colors.yellow[100]),
+                style: TextStyle(color: Colors.deepOrangeAccent[100]),
               ),
             )
           ],

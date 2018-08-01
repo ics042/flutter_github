@@ -15,13 +15,13 @@ class SearchInfoWidget extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Icon(Icons.info, color: Colors.green[200], size: 80.0),
+            Icon(Icons.info, color: Colors.green[400], size: 80.0),
             Container(
               padding: EdgeInsets.only(top: 16.0),
               child: Text(
                 "Enter a search term to begin",
                 style: TextStyle(
-                  color: Colors.green[100],
+                  color: Colors.green[300],
                 ),
               ),
             )
